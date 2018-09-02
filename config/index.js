@@ -8,7 +8,7 @@ module.exports = {
   dev: {
     // Paths fiddler charles
     assetsSubDirectory: 'static',
-    // assetsPublicPath: '/project',
+    // assetsPublicPath: '/project',//打包根目录
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
