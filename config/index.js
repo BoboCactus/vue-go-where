@@ -10,6 +10,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     // assetsPublicPath: '/project',//打包根目录
     assetsPublicPath: '/',
+    //前端代理，部署的时候删除
     proxyTable: {
       '/api': {
         target: 'http://localhost:8080',
