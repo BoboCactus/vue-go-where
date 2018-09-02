@@ -6,7 +6,6 @@ const path = require('path')
 
 module.exports = {
   dev: {
-
     // Paths fiddler charles
     assetsSubDirectory: 'static',
     // assetsPublicPath: '/project',
@@ -19,6 +18,7 @@ module.exports = {
         }
       }
     },
+
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
